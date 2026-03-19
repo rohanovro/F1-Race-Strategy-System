@@ -1,0 +1,41 @@
+# =============================================================================
+# F1 Intelligent Race Strategy System — Requirements
+# Python >= 3.10 required
+# Install: pip install -r requirements.txt
+# =============================================================================
+
+# --- Core Data Stack ---
+pandas>=2.1.0
+numpy>=1.26.0
+
+# --- F1 Telemetry API ---
+fastf1>=3.3.0
+
+# --- Machine Learning ---
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# --- Visualization ---
+matplotlib>=3.8.0
+plotly>=5.18.0
+kaleido>=0.2.1          # Static image export for Plotly figures
+
+# --- Dashboard ---
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+
+# --- HTTP / Caching (FastF1 dependency — pin for stability) ---
+requests>=2.31.0
+requests-cache>=1.1.1
+
+# --- Utilities ---
+tqdm>=4.66.0            # Progress bars for long simulation loops
+python-dotenv>=1.0.0    # Environment variable management
+pydantic>=2.5.0         # Data validation / schema enforcement
+
+# --- Dev / Testing ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.12.0
+ruff>=0.1.9
+gunicorn>=21.2.0
