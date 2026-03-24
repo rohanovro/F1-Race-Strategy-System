@@ -617,9 +617,9 @@ result.print_leaderboard()
 
 ## Author
 
-Rohan
-Industrial and Production Engineering, JUST (Jessore University of Science and Technology)
-Founding President, IEOM Society JUST Student Chapter
+Mahmudul Hasan Rohan
+Industrial and Production Engineering, JUST (Jashore University of Science and Technology)
+
 
 This project was developed as a portfolio submission demonstrating applied motorsport engineering, data science, and software architecture skills relevant to a Formula 1 strategy engineering role.
 
